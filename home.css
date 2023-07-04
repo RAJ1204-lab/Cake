@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.HOME
+{
+
+    height: 140vh;
+    width:100%;
+    background-image: url('../images/fa.jpg');
+    background-size:100%;
+    font-size: 3rem;
+}
+.main_heading>h1
+{
+    position: relative;
+    top:200px;
+    color:black;
+    font: size 2rem;
+    font-family: 'Julee', cursive;
+}
+.top_heading > h1
+{
+text-align: center;
+font-family: 'Julee', cursive;
+text-align: center;
+margin-left: 30px;
+}
+.sec
+{
+    height: 80vh;
+    width: 100%;
+    background-size:100%;
+    background-image: linear-gradient(#232526,#414345);
+}
+.sec > h3
+{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.sec > h4
+{
+    padding-top: 100px;
+    margin-left:150px;
+    font-size: 1.6rem;
+    color: #ddb948;
+}
+.sec > p
+{
+    margin-left:150px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+.sec > img
+{
+
+    margin-right:52px;
+    margin-left:950px;
+    position: relative;
+    bottom:200px;
+    right: 25px;
+    border-radius: 20px;
+}
+.sec2
+{
+    height: 105vh;
+    width: 100%;
+    background-size:100%;
+    background-image: linear-gradient(#232526,#414345);
+}
+.sec2 > video
+{
+height: 80vh;
+width: 80%;
+margin-left: 135px;
+margin-top:60px;
+border-radius: 8px;
+}
+.sec2 > video:hover
+{
+    cursor: pointer;
+}
+
+.sec2 > h4
+{
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+}
+#sec1
+{
+    height: 80vh;
+    width: 100%;
+    background-size:100%;
+    background-image: linear-gradient(#232526,#414345);
+}
+.cakes > img
+{
+    height: 270px;
+    width: 81%;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.rate
+{
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+.cak
+{
+    display: flex;
+}
+.coll
+{
+    color: #ddb948;
+    margin-left: 2px;
+    font-weight: bold;
+}
+.cakes:hover
+{
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+#sec3   
+{
+    height: 100vh;
+    width: 100%;
+    background-size:100%;
+    background-image:url(../images/caramel.jpg);
+}
+.str > img
+{
+    height: 30px;
+    margin-top:75px;
+    margin-left:6px ;
+}
+.para
+{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.bor
+{
+    display: flex;
+    justify-content: space-around;
+}
+.para1
+{
+    margin-top: 250px;
+    color: rgb(241, 246, 232);
+    font-size: 3.2rem;
+    margin-left: 100px;
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+   
+}
+.b3
+{
+    font-size: 1rem;
+   margin-left: 1050px;
+   height: 52px;
+   width: 13%;
+   font-weight: normal;
+   background-color: #ddb948;
+   margin-bottom: 150px;
+   transform: scale(1);
+   position: relative;
+   bottom: 100px;
+   border-radius: 10px;
+   
+}
+.b3:hover
+{
+    background-color: #0a0a0a;
+    cursor: pointer;
+    color: #ddb948;
+    border-color:#f2f1ef;
+    transition: 2s;
+    border-radius: 17px;
+}
+#sec4
+{
+    height: 120vh;
+    width: 100%;
+    background-size:100%;
+   background-image: linear-gradient(#232526,#414345);
+}
+.ad
+{
+  display: flex;
+}
+.img1 > img
+{
+    height: 50vh;
+    width: 85%;
+    margin-left: 110px;
+}
+.img1 > img:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+.pa
+{
+    color: #ddb948;
+    font-size: 1.1rem;
+    font-family: 'Abril Fatface', cursive;  
+    text-align: center; 
+    font-weight: bold;
+    margin-left: 150px;
+}
+.para4
+{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size:1.4rem;
+    text-align: center;
+    margin-left:150px;
+}
+.ff
+ {
+    color: #ddb948;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Rampart One', cursive;
+    margin-left: 10px;
+    position: relative;
+    right: 100px;
+ }
+.ic
+{
+    height: 45px;
+    width:22%;
+    font-size: 1.6rem;
+    color: black;
+    background-color: #ddb948;
+    font-family: 'Julee', cursive;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    transform: scale3d(1);
+}
+.ic:hover
+{
+   background-color: #0a0a0a;
+   cursor: pointer;
+   color:white ;
+   border-color: aliceblue;
+   border-radius: 12px;
+   transition: 1s;
+}
+#sec5
+{
+    height: 105vh;
+    width: 100%;
+    background-size:100%;
+   background-image: linear-gradient(#232526,#414345);
+}
+.inr
+{
+    display: flex;
+    flex-direction: row;
+}
+.liv > img
+{
+    height: 35vh;
+    width: 85%;
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 15px;
+    transition:1s;
+}
+.liv >img:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.im2
+{
+    display: flex;
+}
+
+.li > img
+{
+    height: 35vh;
+    width: 85%;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 15px;
+    transition:1s;
+}
+.li > img:hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.main
+{
+    font-family: 'Julee', cursive;
+    margin-left: 620px;
+    font-size: 2.3rem;
+    color: #ddb948;
+}
+#sec6
+{
+    height: 120vh;
+    width: 100%;
+    background-size:100%;
+background-image: url(../images/roun.jpg);
+}
+.b6 >img
+{
+    height: 22px;
+    width: 20%;
+    color: white;
+}
+.las
+{
+    font-size: 1.4rem;
+    color: rgb(235, 233, 241);
+    padding-top: 180px;
+    margin-left: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.b6
+{
+    height: 6vh;
+    width: 10%;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #232526;
+    color: white;
+    font-size: 1.3rem;
+    border-color: white;
+    transform: scale3d(1);
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 7px;
+
+}
+.b6:hover
+{
+    transition: 1s;
+    cursor: pointer;
+    border-color: white;
+    border-radius: 18px;
+    background-color: rgb(5, 100, 70);
+
+}
+.loc
+{
+    margin-left: 820px;
+    position: relative;
+    top: 133px;
+}
+.num
+{
+    color: #ddb948;
+    font-weight: bold;
+}
+.mm
+{
+    color: #ddb948;
+    font-weight: bold; 
+}
+.lo
+{
+    margin-left: 1100px;
+}
+.or
+{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
